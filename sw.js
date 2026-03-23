@@ -2,9 +2,12 @@ const CACHE_NAME = 'fix-my-city-cache';
 const ASSETS = [
   './',
   './index.html',
-  './app.js',
+  './js/app.js',
+  './js/camera.js',
+  './css/style.css',
   './manifest.json',
   'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css',
+  'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css',
   'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css',
   'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js'
 ];

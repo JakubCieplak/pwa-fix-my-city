@@ -6,7 +6,7 @@ const photoWrapper = document.getElementById('photo-preview-wrapper');
 const reportSection = document.getElementById('report-section');
 
 function initCamera() {
-    navigator.mediaDevices.getUserMedia({ video: { facingMode: 'environment' }, audio: false })
+    navigator.mediaDevices.getUserMedia({ video: { facingMode: 'environment', width: { ideal: 1920 }, height: { ideal: 1080 } }, audio: false })
         .then(function (stream) {
             video.srcObject = stream;
         })

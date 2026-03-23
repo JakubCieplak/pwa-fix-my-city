@@ -4,6 +4,7 @@ const ASSETS = [
   './index.html',
   './js/app.js',
   './js/camera.js',
+  './js/share.js',
   './css/style.css',
   './manifest.json',
   'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css',

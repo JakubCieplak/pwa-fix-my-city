@@ -1,0 +1,25 @@
+{
+  "name": "Fix My City",
+  "short_name": "Fix My City",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#198754",
+  "icons": [
+    {
+      "src": "images/FixMyCityLogoFull.png",
+      "sizes": "2000x2000",
+      "type": "image/png"
+    },
+    {
+      "src": "images/FixMyCityLogoFull512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "images/FixMyCityLogoFull256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ]
+}
